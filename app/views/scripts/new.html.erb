@@ -1,0 +1,22 @@
+<!-- CONSIDER USING NESTED FORMS -->
+<%= form_for @script do |script_form| %>
+  <%= script_form.fields_for :act_one do |act_one_fields| %>
+    <%= act_one_fields.label :hook %><br>
+    <%= act_one_fields.text_area :hook %><br>
+    <%= act_one_fields.label :setup %><br>
+    <%= act_one_fields.text_area :setup %><br>
+    <%= act_one_fields.label :enter_antagonist %><br>
+    <%= act_one_fields.text_area :enter_antagonist %><br>
+    <%= act_one_fields.label :supporting_characters %><br>
+    <%= act_one_fields.text_area :supporting_characters %><br>
+    <%= act_one_fields.label :plot_goal %><br>
+    <%= act_one_fields.text_area :plot_goal %><br>
+    <%= act_one_fields.label :gauntlet %><br>
+    <%= act_one_fields.text_area :gauntlet %><br>
+    <%= act_one_fields.label :first_test %><br>
+    <%= act_one_fields.text_area :first_test %><br>
+    <%= act_one_fields.label :inciting_incident %><br>
+    <%= act_one_fields.text_area :inciting_incident %><br>
+  <% end %>
+  <%= script_form.submit %>
+<% end %>
