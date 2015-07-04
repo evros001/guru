@@ -1,6 +1,30 @@
+Models:
+
+USER
+  -has_many scripts
+  -has_many loglines
+ActI
+  -belongs_to script
+ActII
+  -belongs_to script
+ActIII
+  -belongs_to script
+Script
+  -belongs_to User
+  -has_many characters
+  -has_one ActI
+  -has_one ActII
+  -has_one ActIII
+Character 
+  -belongs_to script
+Logline
+  -belongs_to User
+
+
+
 Basic structure: hook, setup, inciting incident, journey into the unknown, investigation, twist, turning point, surprise crisis, final confrontation, climax, resolution.
 
-ACT I
+ACT I [Hook:, Setup:, Enter Antagonist:, Supporting Characters:, Plot Goal (Want):, Gauntlet:, First Test:, Inciting Incident:]
 
 1. Hook: use one of the various techniques to suck readers/viewers in fast.
 
@@ -30,7 +54,7 @@ ACT I
 
  
 
-ACT II
+ACT II [Exile:, Plot Goals Restated:, Theme Goals Restated:, McGuffin:, Investigation:, Meet Mentor:, Acquire New Tools:, Joke:, Foreshadow:, Unique Genre Color:, First Theme Success:, Triumph First Plot Success:, Betrayal:, Big Bad Twist:, Torture/Escape:, Defeat:, Reassess Plot Goal:, Restate Theme Goal:, Mentor Disabled:, Second Joke:, Unique Genre Element:, Surrender:, McGuffin:, New Solution:]
 
 
 10. Exile: The journey into the unknown. Protagonist leaves his familiar world in order to accomplish his big goal.
@@ -106,7 +130,7 @@ ACT II
 
  
 
-ACT III
+ACT III [Final Confrontation, Death, Resurrection, Sacrifice, Revelation, Climax, Resolution]
 
 
 34. Final Confrontation: tension between protagonist and antagonist rises. Antagonist is confronted.

@@ -1,0 +1,2 @@
+class LoglinesController < ApplicationController
+end

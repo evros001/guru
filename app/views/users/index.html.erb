@@ -1,0 +1,5 @@
+Hello, <%= @user.username %> | 
+<%= link_to("Logout", destroy_user_session_path, :method => :delete) %><br><br>
+<div class="scripts_container">
+  <div id="scripts_nav"><%= link_to "Scripts", scripts_path(@user) %> | <%= link_to "Loglines", loglines_path(@user) %></div>
+</div>
