@@ -1,28 +1,130 @@
-== README
+Basic structure: hook, setup, inciting incident, journey into the unknown, investigation, twist, turning point, surprise crisis, final confrontation, climax, resolution.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+ACT I
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Hook: use one of the various techniques to suck readers/viewers in fast.
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+2. Setup: show the status-quo of the world. Perhaps introduce characters casually doing what they always do. Introduce the main character.
+
+
+3. Enter Antagonist: the antagonist makes an entrance. Show their personality.
+
+
+4. Supporting Characters: each of these characters will serve to highlight or contrast the main character’s personality.
+
+
+5. Plot Goal (Want): Problem arises. The main goal of the protagonist is established.
+
+
+6. Theme or Theme Goal Defined (need): shows in what ways the character needs to change by the end of the story to accomplish his goal. Highlight his weakness and flaws.
+
+
+7. Gauntlet: protagonist conflict with the antagonist.
+
+
+8. First Test: first big challenge. Protagonist may fail this (highlights their weakness).
+
+
+9. Inciting Incident: Event that changes the status-quo.
+
+ 
+
+ACT II
+
+
+10. Exile: The journey into the unknown. Protagonist leaves his familiar world in order to accomplish his big goal.
+
+
+11. Plot Goals Restated: protagonist questions whether he made the right choice by leaving his home or normal world.
+
+
+12. Theme Goals Restated: start developing a theme. Use metaphors or symbols to tell about this theme.
+
+
+13. McGuffin: a random, unforeseen event which pushes the plot forward. It shakes up the protagonist and causes him to stop stalling and thinking and gets him moving again.
+
+
+14. Investigation: Protagonist fumbles around in dark to accomplish his goal. He is not sure of exactly what he needs to do and so is not exactly efficient.
+
+
+15. Meet Mentor: Teacher, godlike force, wizard, or fully-realized hero appears and aids the protagonist.
+
+
+16. Acquire New Tools: New skills, tools, or information is found or is given to the protagonist.
+
+
+17. Joke: This is just a funny moment to relieve the tension. Shows the protagonist’s “Achilles heel.”
+
+
+18. Foreshadow: Prepares the audience for the climax of the film. This should be fairly subtle.
+
+
+19. Unique Genre Color: show something to do with the genre you’re writing in. For example, a dragon for Fantasy, of aliens for Sci-Fi. Whatever works fro your particular story.
+
+
+20. First Theme Success: Show small growth in the protagonist that is related to the story’s theme and/or a small step in the direction of how the character needs to change by the end.
+
+
+21. Triumph First Plot Success: 1st goal is accomplished (not the main goal, but a step towards it).
+
+
+22. Betrayal: supporting characters act in treacherous way (possible twist), or the protagonist falls prey to his own weakness.
+
+
+23. Big Bad Twist: an unexpected turn of events which often changes the big goal of the protagonist. What he thought he wanted isn’t actually what he needs and now he knows better.
+
+
+24. Torture/Escape: Protagonist suffers greatly, but comes out of the challenge stronger. Sometimes gains or awakens new skills within himself.
+
+
+25. Defeat: Protagonist is defeated. His plans didn’t work.
+
+
+26. Reassess Plot Goal: Character reassess the situation and goes a new direction to achieve the plot goal.
+
+
+27. Restate Theme Goal: return of symbolism that is a reminder of the story theme, or an event that shows that the character has grown even more.
+
+
+28. Mentor Disabled: Protagonist must go forward alone because, for whatever reason, the mentor is no longer able to help.
+
+
+29. Second Joke: another funny or playful moment.
+
+
+30. Unique Genre Element: something recognizable to your genre. For example, in a sci-fi story: aliens, or a spaceship. For Fantasy: dragon or unicorns. Whatever works for your particular story.
+
+
+31. Surrender: Protagonist vs. impossible odds. He may lose everything and give up.
+
+
+32. McGuffin: Unexpected event or new information or gained powers moves plot forward, helps to kick the protagonist out of his rut.
+
+
+33. New Solution: Unexpected solution is discovered. Now the protagonist goes for the goal with more vigor than before.
+
+ 
+
+ACT III
+
+
+34. Final Confrontation: tension between protagonist and antagonist rises. Antagonist is confronted.
+
+
+35. Death: Protagonist (and his supporting characters) are defeated
+
+
+36. Resurrection: protagonist gathers himself and charges at the antagonist a second time.
+
+
+37. Sacrifice: the protagonist must make a considerable sacrifice in order to achieve his goal. He could lose a limb, or have to make a tough choice, such as choosing between getting a treasure and saving a team member.
+
+
+38. Revelation: the theme is reiterated. Protagonist has an epiphany relating to it.
+
+
+39. Climax: Protagonist finally wins.
+
+
+40. Resolution: loose ends are wrapped up.
