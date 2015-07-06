@@ -1,0 +1,14 @@
+$(document).ready(function(){
+  $("#act_one_button").click(function(){
+    $(".act_one_container").toggle();
+  });
+  $("#act_two_button").click(function(){
+    $(".act_two_container").toggle();
+  });
+  $("#act_three_button").click(function(){
+    $(".act_three_container").toggle();
+  });
+  $("#character_button").click(function(){
+    $(".character_1").toggle();
+  });
+});

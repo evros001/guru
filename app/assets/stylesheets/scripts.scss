@@ -10,3 +10,22 @@
   font-size: 4em;
   text-decoration: none;
 }
+
+/*SCRIPT FORMS*/
+
+.forms_container {
+  height: 100%;
+  width: 100%;
+}
+
+.act_container {
+  height: 500px;
+  display: inline-block;
+  overflow: scroll;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.act_one_container.act_container, .act_two_container.act_container, .act_three_container.act_container {
+  display: none;
+}

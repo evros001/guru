@@ -1,22 +1,111 @@
 <!-- CONSIDER USING NESTED FORMS -->
-<%= form_for @script do |script_form| %>
-  <%= script_form.fields_for :act_one do |act_one_fields| %>
-    <%= act_one_fields.label :hook %><br>
-    <%= act_one_fields.text_area :hook %><br>
-    <%= act_one_fields.label :setup %><br>
-    <%= act_one_fields.text_area :setup %><br>
-    <%= act_one_fields.label :enter_antagonist %><br>
-    <%= act_one_fields.text_area :enter_antagonist %><br>
-    <%= act_one_fields.label :supporting_characters %><br>
-    <%= act_one_fields.text_area :supporting_characters %><br>
-    <%= act_one_fields.label :plot_goal %><br>
-    <%= act_one_fields.text_area :plot_goal %><br>
-    <%= act_one_fields.label :gauntlet %><br>
-    <%= act_one_fields.text_area :gauntlet %><br>
-    <%= act_one_fields.label :first_test %><br>
-    <%= act_one_fields.text_area :first_test %><br>
-    <%= act_one_fields.label :inciting_incident %><br>
-    <%= act_one_fields.text_area :inciting_incident %><br>
-  <% end %>
-  <%= script_form.submit %>
-<% end %>
+<div class="forms_container">
+    <h2 id="character_button">Character</h2>
+    <div class="character_container character_1">
+    <%= form_for @script do |script_form| %>
+      <%= script_form.fields_for :character do |character_fields| %>
+        <%= character_fields.label :bio %><br>
+        <%= character_fields.text_area :bio %><br>
+        <%= character_fields.label :want %><br>
+        <%= character_fields.text_field :want %><br>
+        <%= character_fields.label :need %><br>
+        <%= character_fields.text_field :need %><br>
+      <% end %>
+    <div class="add_character_button">Add Character</div>
+    </div>
+    <h2 id="act_one_button">Act I</h2>
+    <div class="act_one_container act_container"> 
+      <%= script_form.fields_for :act_one do |act_one_fields| %>
+        <%= act_one_fields.label :hook %><br>
+        <%= act_one_fields.text_area :hook, :size => "60x5" %><br>
+        <%= act_one_fields.label :setup %><br>
+        <%= act_one_fields.text_area :setup, :size => "60x5" %><br>
+        <%= act_one_fields.label :enter_antagonist %><br>
+        <%= act_one_fields.text_area :enter_antagonist, :size => "60x5" %><br>
+        <%= act_one_fields.label :supporting_characters %><br>
+        <%= act_one_fields.text_area :supporting_characters, :size => "60x5" %><br>
+        <%= act_one_fields.label :plot_goal %><br>
+        <%= act_one_fields.text_area :plot_goal, :size => "60x5" %><br>
+        <%= act_one_fields.label :gauntlet %><br>
+        <%= act_one_fields.text_area :gauntlet, :size => "60x5" %><br>
+        <%= act_one_fields.label :first_test %><br>
+        <%= act_one_fields.text_area :first_test, :size => "60x5" %><br>
+        <%= act_one_fields.label :inciting_incident %><br>
+        <%= act_one_fields.text_area :inciting_incident, :size => "60x5" %><br>
+      <% end %>
+    </div>
+    <h2 id="act_two_button">Act II</h2>
+    <div class="act_two_container act_container">
+      <%= script_form.fields_for :act_two do |act_two_fields| %>
+        <%= act_two_fields.label :exile %><br>
+        <%= act_two_fields.text_area :exile, :size => "60x5" %><br>
+        <%= act_two_fields.label :plot_goals_restated %><br>
+        <%= act_two_fields.text_area :plot_goals_restated, :size => "60x5" %><br>
+        <%= act_two_fields.label :theme_goals_restated %><br>
+        <%= act_two_fields.text_area :theme_goals_restated, :size => "60x5" %><br>
+        <%= act_two_fields.label :mcguffin %><br>
+        <%= act_two_fields.text_area :mcguffin, :size => "60x5" %><br>
+        <%= act_two_fields.label :investigation %><br>
+        <%= act_two_fields.text_area :investigation, :size => "60x5" %><br>
+        <%= act_two_fields.label :meet_mentor %><br>
+        <%= act_two_fields.text_area :meet_mentor, :size => "60x5" %><br>
+        <%= act_two_fields.label :acquire_new_tools %><br>
+        <%= act_two_fields.text_area :acquire_new_tools, :size => "60x5" %><br>
+        <%= act_two_fields.label :joke %><br>
+        <%= act_two_fields.text_area :joke, :size => "60x5" %><br>
+        <%= act_two_fields.label :foreshadow %><br>
+        <%= act_two_fields.text_area :foreshadow, :size => "60x5" %><br>
+        <%= act_two_fields.label :unique_genre_color %><br>
+        <%= act_two_fields.text_area :unique_genre_color, :size => "60x5" %><br>
+        <%= act_two_fields.label :first_theme_success %><br>
+        <%= act_two_fields.text_area :first_theme_success, :size => "60x5" %><br>
+        <%= act_two_fields.label :triumph_first_plot_success %><br>
+        <%= act_two_fields.text_area :triumph_first_plot_success, :size => "60x5" %><br>
+        <%= act_two_fields.label :betrayal %><br>
+        <%= act_two_fields.text_area :betrayal, :size => "60x5" %><br>
+        <%= act_two_fields.label :twist %><br>
+        <%= act_two_fields.text_area :twist, :size => "60x5" %><br>
+        <%= act_two_fields.label :torture_escape %><br>
+        <%= act_two_fields.text_area :torture_escape, :size => "60x5" %><br>
+        <%= act_two_fields.label :defeat %><br>
+        <%= act_two_fields.text_area :defeat, :size => "60x5" %><br>
+        <%= act_two_fields.label :reassess_plot_goal %><br>
+        <%= act_two_fields.text_area :reassess_plot_goal, :size => "60x5" %><br>
+        <%= act_two_fields.label :restate_theme_goal %><br>
+        <%= act_two_fields.text_area :restate_theme_goal, :size => "60x5" %><br>
+        <%= act_two_fields.label :mentor_disabled %><br>
+        <%= act_two_fields.text_area :mentor_disabled, :size => "60x5" %><br>
+        <%= act_two_fields.label :second_joke %><br>
+        <%= act_two_fields.text_area :second_joke, :size => "60x5" %><br>
+        <%= act_two_fields.label :unique_genre_element %><br>
+        <%= act_two_fields.text_area :unique_genre_element, :size => "60x5" %><br>
+        <%= act_two_fields.label :surrender %><br>
+        <%= act_two_fields.text_area :surrender, :size => "60x5" %><br>
+        <%= act_two_fields.label :mcguffin %><br>
+        <%= act_two_fields.text_area :mcguffin, :size => "60x5" %><br>
+        <%= act_two_fields.label :new_solution %><br>
+        <%= act_two_fields.text_area :new_solution, :size => "60x5" %><br>
+      <% end %>
+    </div>
+    <h2 id="act_three_button">Act III</h2>
+    <div class="act_three_container act_container">
+      <%= script_form.fields_for :act_three do |act_three_fields| %>
+        <%= act_three_fields.label :final_confrontation %><br>
+        <%= act_three_fields.text_area :final_confrontation, :size => "60x5" %><br>
+        <%= act_three_fields.label :death %><br>
+        <%= act_three_fields.text_area :death, :size => "60x5" %><br>
+        <%= act_three_fields.label :resurrection %><br>
+        <%= act_three_fields.text_area :resurrection, :size => "60x5" %><br>
+        <%= act_three_fields.label :sacrifice %><br>
+        <%= act_three_fields.text_area :sacrifice, :size => "60x5" %><br>
+        <%= act_three_fields.label :revelation %><br>
+        <%= act_three_fields.text_area :revelation, :size => "60x5" %><br>
+        <%= act_three_fields.label :climax %><br>
+        <%= act_three_fields.text_area :climax, :size => "60x5" %><br>
+        <%= act_three_fields.label :resolution %><br>
+        <%= act_three_fields.text_area :resolution, :size => "60x5" %><br>
+      <% end %>
+    </div>
+    <%= script_form.submit %>
+  <% end %> 
+</div>

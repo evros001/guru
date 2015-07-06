@@ -7,6 +7,7 @@ class ScriptsController < ApplicationController
   end
 
   def new
+    @character = Character.new
     @script = Script.new
     @act_one = ActOne.new
     @act_two = ActTwo.new

@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   resource :act_ones
   resource :act_twos
   resource :act_threes
+
   root 'users#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
